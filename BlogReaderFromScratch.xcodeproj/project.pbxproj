@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A296BBD18AFE7620083790D /* EMBBlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A296BBC18AFE7620083790D /* EMBBlogPost.m */; };
+		5A296BC018B196260083790D /* EMBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A296BBF18B196260083790D /* EMBWebViewController.m */; };
 		5A9F2D6B18AA9386002A261F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9F2D6A18AA9386002A261F /* Foundation.framework */; };
 		5A9F2D6D18AA9386002A261F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9F2D6C18AA9386002A261F /* CoreGraphics.framework */; };
 		5A9F2D6F18AA9386002A261F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9F2D6E18AA9386002A261F /* UIKit.framework */; };
@@ -19,6 +21,8 @@
 		5A9F2D8618AA9386002A261F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9F2D6E18AA9386002A261F /* UIKit.framework */; };
 		5A9F2D8E18AA9386002A261F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F2D8C18AA9386002A261F /* InfoPlist.strings */; };
 		5A9F2D9018AA9386002A261F /* BlogReaderFromScratchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F2D8F18AA9386002A261F /* BlogReaderFromScratchTests.m */; };
+		5A9F2D9A18AA9DF8002A261F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F2D9918AA9DF8002A261F /* MainStoryboard.storyboard */; };
+		5A9F2D9D18AA9EAF002A261F /* EMBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F2D9C18AA9EAF002A261F /* EMBTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A296BBB18AFE7620083790D /* EMBBlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBBlogPost.h; sourceTree = "<group>"; };
+		5A296BBC18AFE7620083790D /* EMBBlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBBlogPost.m; sourceTree = "<group>"; };
+		5A296BBE18B196260083790D /* EMBWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBWebViewController.h; sourceTree = "<group>"; };
+		5A296BBF18B196260083790D /* EMBWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBWebViewController.m; sourceTree = "<group>"; };
 		5A9F2D6718AA9386002A261F /* BlogReaderFromScratch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReaderFromScratch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9F2D6A18AA9386002A261F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A9F2D6C18AA9386002A261F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +56,9 @@
 		5A9F2D8B18AA9386002A261F /* BlogReaderFromScratchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReaderFromScratchTests-Info.plist"; sourceTree = "<group>"; };
 		5A9F2D8D18AA9386002A261F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5A9F2D8F18AA9386002A261F /* BlogReaderFromScratchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderFromScratchTests.m; sourceTree = "<group>"; };
+		5A9F2D9918AA9DF8002A261F /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5A9F2D9B18AA9EAF002A261F /* EMBTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMBTableViewController.h; sourceTree = "<group>"; };
+		5A9F2D9C18AA9EAF002A261F /* EMBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMBTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +122,13 @@
 				5A9F2D7A18AA9386002A261F /* EMBAppDelegate.m */,
 				5A9F2D7C18AA9386002A261F /* Images.xcassets */,
 				5A9F2D7118AA9386002A261F /* Supporting Files */,
+				5A9F2D9918AA9DF8002A261F /* MainStoryboard.storyboard */,
+				5A9F2D9B18AA9EAF002A261F /* EMBTableViewController.h */,
+				5A9F2D9C18AA9EAF002A261F /* EMBTableViewController.m */,
+				5A296BBB18AFE7620083790D /* EMBBlogPost.h */,
+				5A296BBC18AFE7620083790D /* EMBBlogPost.m */,
+				5A296BBE18B196260083790D /* EMBWebViewController.h */,
+				5A296BBF18B196260083790D /* EMBWebViewController.m */,
 			);
 			path = BlogReaderFromScratch;
 			sourceTree = "<group>";
@@ -220,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9F2D9A18AA9DF8002A261F /* MainStoryboard.storyboard in Resources */,
 				5A9F2D7518AA9386002A261F /* InfoPlist.strings in Resources */,
 				5A9F2D7D18AA9386002A261F /* Images.xcassets in Resources */,
 			);
@@ -240,7 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A296BC018B196260083790D /* EMBWebViewController.m in Sources */,
 				5A9F2D7718AA9386002A261F /* main.m in Sources */,
+				5A9F2D9D18AA9EAF002A261F /* EMBTableViewController.m in Sources */,
+				5A296BBD18AFE7620083790D /* EMBBlogPost.m in Sources */,
 				5A9F2D7B18AA9386002A261F /* EMBAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlogReaderFromScratch/BlogReaderFromScratch-Prefix.pch";
 				INFOPLIST_FILE = "BlogReaderFromScratch/BlogReaderFromScratch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -376,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlogReaderFromScratch/BlogReaderFromScratch-Prefix.pch";
 				INFOPLIST_FILE = "BlogReaderFromScratch/BlogReaderFromScratch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -442,6 +466,7 @@
 				5A9F2D9518AA9386002A261F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A9F2D9618AA9386002A261F /* Build configuration list for PBXNativeTarget "BlogReaderFromScratchTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +475,7 @@
 				5A9F2D9818AA9386002A261F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
